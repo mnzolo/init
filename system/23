@@ -1,0 +1,6 @@
+1 ssh root@server_address
+2 sudo adduser newuser
+3 usermod -aG sudo newuser
+4 mkdir ~/.ssh
+5 vim ~/.ssh/authorized_keys
+6 ssh root@server_address

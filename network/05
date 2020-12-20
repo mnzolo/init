@@ -1,0 +1,1 @@
+ping -c 2 slash16.org | head -2 | tail -1 | awk '{print$5}' | sed 's/[(:)]//g'
